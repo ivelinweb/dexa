@@ -4,6 +4,10 @@
 
 Dexa is a decentralized social platform built on blockchain technology, enabling users to create profiles, share content, interact with other users, and participate in a tokenized ecosystem. The platform leverages smart contracts on the Pharos blockchain to provide a secure, transparent, and censorship-resistant social experience.
 
+## Demo / Pitch video
+
+[![Watch the demo](https://img.youtube.com/vi/8q8Qp6LvHSY/hqdefault.jpg)](https://www.youtube.com/watch?v=XdYsW78sArI)
+
 ## Table of Contents
 
 - [Features](#features)
