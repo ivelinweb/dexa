@@ -1,0 +1,96 @@
+/******************************************
+*STEPPER HERE
+*/
+.steps {
+  .circle {
+    .icon {
+      @apply stroke-medium;
+    }
+  }
+}
+
+.steps-small.steps {
+  .icon {
+    @apply text-lg;
+  }
+}
+
+.selected .circle,
+.completed .circle {
+  .icon {
+    @apply stroke-light;
+  }
+}
+
+/*************************************************************************
+********************* LEFT STEPPER
+*************************************************************************/
+.step-left.steps:not(:last-child) > .circle-wrapper {
+  @apply pl-0 pr-24;
+  &:after {
+    content: "";
+    @apply bg-medium;
+    @apply absolute;
+    @apply w-[8rem] h-[2px];
+    @apply top-0 bottom-0;
+    @apply left-3;
+    @apply m-auto;
+    @apply z-0;
+  }
+}
+
+.step-left.steps:not(:first-child) > .circle-wrapper {
+  @apply pl-0 pr-24;
+}
+
+.step-left.steps.completed:not(:last-child) > .circle-wrapper {
+  &:after {
+    @apply bg-primary;
+  }
+}
+
+/*************************************************************************
+********************* LEFT CENTER
+*************************************************************************/
+
+.step-center.steps:not(:last-child) > .circle-wrapper {
+  @apply px-16;
+  &:after {
+    content: "";
+    @apply bg-medium;
+    @apply absolute;
+    @apply w-[5rem] h-[2px];
+    @apply top-0 bottom-0;
+    @apply right-0;
+    @apply m-auto;
+    @apply z-0;
+  }
+}
+
+.step-center.steps:not(:first-child) > .circle-wrapper {
+  @apply px-16;
+  &:before {
+    content: "";
+    @apply bg-medium;
+    @apply absolute;
+    @apply w-[5rem] h-[2px];
+    @apply top-0 bottom-0;
+    @apply left-0;
+    @apply m-auto;
+    @apply z-0;
+  }
+}
+
+.step-center.steps.selected:not(:last-child) > .circle-wrapper,
+.step-center.steps.completed:not(:last-child) > .circle-wrapper {
+  &:after {
+    @apply bg-primary;
+  }
+}
+
+.step-center.steps.selected:not(:first-child) > .circle-wrapper,
+.step-center.steps.completed:not(:first-child) > .circle-wrapper {
+  &:before {
+    @apply bg-primary;
+  }
+}

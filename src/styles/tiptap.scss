@@ -1,0 +1,42 @@
+.tiptap {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+  h1 {
+    @apply text-4xl mb-6;
+  }
+  h2 {
+    @apply text-3xl mb-5;
+  }
+  h3 {
+    @apply text-2xl mb-4;
+  }
+  h4 {
+    @apply text-xl mb-3;
+  }
+  h5 {
+    @apply text-lg mb-2;
+  }
+  h6 {
+    @apply text-base mb-1;
+  }
+
+  a {
+    @apply text-primary underline;
+    @apply font-bold;
+  }
+
+  p {
+    @apply font-normal text-base mb-4;
+  }
+
+  .is-empty:first-child::before {
+    @apply text-medium text-left float-left font-semibold h-0 pointer-events-none;
+    content: attr(data-placeholder);
+  }
+}
