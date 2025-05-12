@@ -91,12 +91,16 @@ dexa/
 Dexa uses several smart contracts to manage different aspects of the platform:
 
 1. **FeedsToken**: ERC20 token used for the Dexa ecosystem
+   
    [0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8](https://testnet.pharosscan.xyz/address/0x99fa2c17fc269fa23add4e71cde3210b1174f3b8)
 2. **DexaCreator**: Manages user profiles and authentication
+   
    [0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3](https://testnet.pharosscan.xyz/address/0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3)
 3. **DexaFeeds**: Handles posts, comments, and social interactions
+   
    [0x10c9Ab23a88a17fe62687Df67895F1bC7f6ba05A](https://testnet.pharosscan.xyz/address/0x10c9Ab23a88a17fe62687Df67895F1bC7f6ba05A)
 4. **DexaMessenger**: Manages messaging between users
+   
    [0x18c9CbC1E055aBA2494Bc1d787436586EAca8456](https://testnet.pharosscan.xyz/address/0x18c9CbC1E055aBA2494Bc1d787436586EAca8456)
 
 These contracts are deployed on the Pharos Testnet and can be found in the `contracts/` directory.
