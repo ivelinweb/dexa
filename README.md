@@ -91,6 +91,7 @@ dexa/
 Dexa uses several smart contracts to manage different aspects of the platform:
 
 1. **FeedsToken**: ERC20 token used for the Dexa ecosystem
+   [0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8](https://testnet.pharosscan.xyz/address/0x99fa2c17fc269fa23add4e71cde3210b1174f3b8)
 2. **DexaCreator**: Manages user profiles and authentication
 3. **DexaFeeds**: Handles posts, comments, and social interactions
 4. **DexaMessenger**: Manages messaging between users
