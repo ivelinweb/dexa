@@ -1,0 +1,65 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import "../styles/tiptap.scss";
+@import "../styles/stepper.scss";
+
+.gradient-text {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.html-data {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+    @apply mt-6;
+  }
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-base;
+  }
+
+  a {
+    @apply text-primary hover:underline;
+    @apply font-semibold;
+  }
+
+  p {
+    @apply text-base mt-4;
+
+    img {
+      @apply max-h-[35rem] mx-auto my-4;
+    }
+  }
+
+  ul {
+    @apply block list-disc;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+  }
+}
